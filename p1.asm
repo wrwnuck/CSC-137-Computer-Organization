@@ -1,0 +1,33 @@
+.code
+	LD 0
+	ST 255
+	ST 254
+L1:
+	CMP 7
+	JGT L2
+	MVX
+	LD
+	ADD 255
+	ST 255
+	LD 254
+	ADD 1
+	ST 254
+	JMP L1
+L2:
+	LD 2
+	ST 240
+	LD 3
+	ST 241
+	LD 5
+	ST 242
+	LD 7
+	ST 243
+	LD 11
+	ST 244
+	LD 13
+	ST 245
+	LD 17
+	ST 246
+	LD 19
+	ST 247
+	HTP
